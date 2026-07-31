@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Lucas Tao builds machine-learning, computer-vision, robotics, and autonomous-systems projects.">
+  <meta name="theme-color" content="#f3f0e8">
+  <title>Lucas Tao — ML, vision & autonomous systems</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Lucas Tao, home"><span>LT</span> Lucas Tao</a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Primary navigation">
+      <a href="#work">Work</a><a href="#practice">Practice</a><a href="#about">About</a>
+      <a class="nav-contact" href="https://www.linkedin.com/in/lucas-tao-828289356" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <p class="kicker"><span aria-hidden="true"></span> Computer science · UMD ’27</p>
+      <h1 id="hero-title">I build systems that help machines <em>see, reason, and act.</em></h1>
+      <div class="hero-bottom">
+        <p>Lucas Tao is a computer-science student working across machine learning, computer vision, robotics, and autonomous systems. He turns research questions into testable software.</p>
+        <div class="hero-actions"><a class="button primary" href="#work">Explore selected work</a><a class="button" href="https://github.com/LucasKazaki" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+      </div>
+      <div class="coordinate-strip" aria-hidden="true"><span>38.9869° N</span><span>RESEARCH → PROTOTYPE → EVIDENCE</span><span>76.9426° W</span></div>
+    </section>
+
+    <section class="work-section" id="work" aria-labelledby="work-title">
+      <header class="section-heading"><p>01 / Selected work</p><h2 id="work-title">Built at the boundary between perception and action.</h2></header>
+
+      <article class="featured-project">
+        <div class="project-index">A</div>
+        <div class="project-copy">
+          <p class="project-type">Aerial computer vision · Research in progress</p>
+          <h3>AeroScene Fusion / Aerial-VGGT</h3>
+          <p>A local-first research system for aerial multiview geometry, georegistered change analysis, and evidence-driven evaluation. The workflow is designed around reproducibility: governed assets, input hashes, explicit execution gates, and portable train/test tooling.</p>
+          <ul class="project-notes"><li>Multiview geometry</li><li>Computer vision</li><li>Reproducible evaluation</li><li>Python</li></ul>
+          <p class="project-disclosure">Research prototype; no restricted weights, company imagery, or private data are published here.</p>
+        </div>
+        <div class="project-diagram" aria-label="Aerial vision research flow diagram"><span>01</span><strong>COLLECT</strong><i></i><span>02</span><strong>REGISTER</strong><i></i><span>03</span><strong>EVALUATE</strong></div>
+      </article>
+
+      <div class="project-list" aria-label="Project index">
+        <article><div class="project-number">02</div><div><p class="project-type">Computer vision</p><h3>RVAR Soccer Offside Detection</h3><p>Single-camera player detection, team clustering, field geometry, and a bird’s-eye representation for reasoning about offside position.</p></div><ul><li>YOLOv8</li><li>OpenCV</li><li>Geometry</li></ul></article>
+        <article><div class="project-number">03</div><div><p class="project-type">Embedded perception</p><h3>UAV Computer Vision</h3><p>Real-time detection and tracking pipelines for small unmanned aerial systems, developed around constrained onboard compute.</p></div><ul><li>Jetson</li><li>Tracking</li><li>Edge ML</li></ul></article>
+        <article><div class="project-number">04</div><div><p class="project-type">Robotics</p><h3>UR3e Pick-and-Place</h3><p>A perception-to-motion demonstration combining ROS 2, OpenCV, ArUco markers, and six-degree-of-freedom kinematics.</p></div><ul><li>ROS 2</li><li>ArUco</li><li>Kinematics</li></ul></article>
+        <article><div class="project-number">05</div><div><p class="project-type">Game systems</p><h3>Astral Engine / AnimeRPG</h3><p>Two visibly playable foundations: a custom Windows C++ engine loop and an Unreal Engine third-person runtime module.</p><div class="inline-links"><a href="https://github.com/LucasKazaki/AnimeRPG" target="_blank" rel="noreferrer">Custom engine ↗</a><a href="https://github.com/LucasKazaki/AnimeRPG-UE5" target="_blank" rel="noreferrer">Unreal project ↗</a></div></div><ul><li>C++</li><li>CMake</li><li>Unreal Engine</li></ul></article>
+      </div>
+    </section>
+
+    <section class="practice-section" id="practice" aria-labelledby="practice-title">
+      <header class="section-heading"><p>02 / Practice</p><h2 id="practice-title">How I approach technical work.</h2></header>
+      <div class="practice-layout">
+        <ol><li><span>01</span><div><h3>Start from a falsifiable question.</h3><p>Define what should change, what evidence would count, and what would disprove the idea.</p></div></li><li><span>02</span><div><h3>Build the smallest visible system.</h3><p>Prefer an executable prototype and a measured baseline to an architecture that only exists on paper.</p></div></li><li><span>03</span><div><h3>Preserve the experiment.</h3><p>Record inputs, configurations, provenance, and known limitations so another person can inspect the result.</p></div></li></ol>
+        <aside><p class="aside-label">Current focus</p><p>Multiview geometry, real-time visual perception, robot learning, and agentic systems that remain observable and governed.</p><div class="focus-tags"><span>Machine learning</span><span>Computer vision</span><span>Robotics</span><span>Autonomy</span><span>Research engineering</span></div></aside>
+      </div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <header class="section-heading"><p>03 / About</p><h2 id="about-title">Student, researcher, and builder.</h2></header>
+      <div class="about-grid"><p class="about-lead">I’m studying computer science on the machine-learning track at the University of Maryland, with a minor in Robotics and Autonomous Systems and work in Departmental Honors.</p><div><p>My interests sit where software meets the physical world: perception that survives real constraints, autonomy that can be evaluated, and research tooling that makes claims easier to trust.</p><p>I’m looking for opportunities to learn from strong engineering and research teams while shipping useful systems.</p></div></div>
+    </section>
+
+    <section class="contact-section" aria-labelledby="contact-title"><p>Available for research and engineering conversations.</p><h2 id="contact-title">Let’s build something that can be tested.</h2><div><a class="button primary" href="https://www.linkedin.com/in/lucas-tao-828289356" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a><a class="button" href="https://github.com/LucasKazaki" target="_blank" rel="noreferrer">See GitHub ↗</a></div></section>
+  </main>
+
+  <footer><span>© <span id="year">2026</span> Lucas Tao</span><span>Designed and built as a static, privacy-safe site.</span><a href="#top">Back to top ↑</a></footer>
+</body>
+</html>
